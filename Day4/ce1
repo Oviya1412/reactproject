@@ -1,0 +1,59 @@
+// src/FruitSurveyForm.js
+import React, { useState } from 'react';
+import { TextField, Autocomplete, Button, Container, Typography } from '@mui/material';
+
+const fruitOptions = ['Apple', 'Banana', 'Cherry', 'Durian', 'Elderberry'];
+
+const Form = () => {
+  const [name, setName] = useState('');
+  const [favoriteFruit, setFavoriteFruit] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    if (name && favoriteFruit) {
+      setMessage(`Hello, ${name}! Your favorite fruit is ${favoriteFruit}.`);
+    } else {
+      setMessage('Please fill out both fields.');
+    }
+  };
+
+  return (
+    <Container>
+      <form onSubmit={handleSubmit}>
+        <TextField
+          label="Name"
+          data-testid="name"
+          variant="outlined"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+        <Autocomplete
+          data-testid="autocomplete"
+          options={fruitOptions}
+          renderInput={(params) => (
+            <TextField {...params} label="Choose a fruit" variant="outlined" fullWidth margin="normal" />
+          )}
+          onChange={(event, newValue) => setFavoriteFruit(newValue)}
+        />
+        <Button
+          data-testid="button"
+          type="submit"
+          variant="contained"
+          color="primary"
+          fullWidth
+          style={{ marginTop: '16px' }}
+        >
+          Submit
+        </Button>
+      </form>
+      {message && (
+        <Typography variant="h6" style={{ marginTop: '16px' }}>
+          {message}
+        </Typography>
+      )}
+    </Container>
+  );
+};
+
+export default Form;

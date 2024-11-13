@@ -1,0 +1,53 @@
+.patientco{
+    max-width: 1500px;
+    margin:5%;
+    /* margin: 0 auto; */
+    padding: 20px;
+    box-shadow:4px 4px 4px 4px rgba(235, 220, 11, 0.86);
+    border-radius: 8px;
+    background-color: #f8f416;
+    
+}
+
+.tit {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.patientit{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 50px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.patientpic {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+   
+}
+
+.patientin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.patientna {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.patientda, .patientdo, .patient-co, .patient-ad, .patientmed{
+    font-size: 16px;
+    margin: 5px 0;
+    color:black;
+    text-align: center;
+}

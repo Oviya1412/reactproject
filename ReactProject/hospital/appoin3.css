@@ -1,0 +1,29 @@
+.connn
+{
+  background-image: url("https://tse3.mm.bing.net/th?id=OIP.L_MrJrNj7fXkxdNy79MCqQHaEK&pid=Api&P=0&h=180");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.appooo {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; 
+    
+  }
+  
+  
+  .appo {
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+   
+  }
+  
+  .appo1 {
+    width:300%; 
+    display: flex;
+    justify-content: center; 
+  
+    
+  }
+  

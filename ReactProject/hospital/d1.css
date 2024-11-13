@@ -1,0 +1,60 @@
+
+.docc {
+    background-color: #e0f7fa; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .doctit {
+    color: #0277bd; 
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .docpic {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .docin {
+    margin-top: 20px;
+    background-color: #e1f5fe; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .docna {
+    color: #01579b; 
+    text-align: center;
+  }
+  
+  .docda, .docdo, .docco, .docad, .docmed {
+    color: #0288d1; 
+    margin: 5px 0;
+  }
+  
+  button {
+    background-color: #03a9f4; 
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0288d1; 
+  }
+  

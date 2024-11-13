@@ -1,0 +1,30 @@
+.bar-container {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  padding: 10px;
+  width:300px;
+  position:static;
+}
+
+.bar {
+  background-color: #f4f4f4;
+  margin-left: 20%;
+  border-radius: 8px;
+  height: 200px;
+  width: 220px; 
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  margin: 0 50px;
+}
+
+.text {
+  font-size: 16px;
+  margin: 10px;
+}
+
+.bar img {
+  height: 120px;
+
+}

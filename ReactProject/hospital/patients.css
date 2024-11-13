@@ -1,0 +1,57 @@
+  /* margin-left: 200%; */
+/* src/hospital/patient.css */
+.container {
+    /* margin-left:10%; */
+    margin:0px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    gap:50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Remove margin-left */
+    max-width:fit-content;
+    /* margin-left: 200%; */
+  }
+  
+  .title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .item {
+    display: flex;
+    align-items:center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .det {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .name {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .doc, .doctor {
+    margin: 3px 0;
+    font-size: 14px;
+  }
+  

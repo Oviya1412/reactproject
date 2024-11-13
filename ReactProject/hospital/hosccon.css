@@ -1,0 +1,8 @@
+.div1 {
+    background-image: url('https://files.123freevectors.com/wp-content/original/117153-abstract-light-blue-blur-lights-background-vector.jpg');
+     background-size: cover; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow-y: auto; 
+}

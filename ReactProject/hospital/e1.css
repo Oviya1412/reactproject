@@ -1,0 +1,22 @@
+
+.chart-container {
+    width:130%;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    
+  }
+  
+  .chart-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+   padding-right: 20%;
+  }
+  .hh
+  {
+    color:Red;
+    text-align: center;
+    margin-right:25%;
+  }
+  

@@ -1,0 +1,31 @@
+/* SearchBar.css */
+.search-bar-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .search-bar {
+    width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-results {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .search-results li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .search-results li:hover {
+    background-color: #f0f0f0;
+  }
+  

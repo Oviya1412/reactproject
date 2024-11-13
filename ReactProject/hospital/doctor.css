@@ -1,0 +1,63 @@
+
+.bodyy{
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2020/09/21/55222/medical-10.jpg");
+}
+.contain {
+   padding-left: 57%;
+    width: 300%; 
+    max-width:40%; 
+    margin: 0 auto;
+    margin-left: 0%;
+    
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    gap: 20px; 
+    align-items:center; 
+    box-sizing: border-box; 
+    
+}
+
+.title11 {
+    font-size: 24px;
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+.list11{
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    width: 100%;
+}
+
+.item11 {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 15px; 
+    width: 100%;
+}
+
+.picc {
+    width: 90px;
+    height: 90px;
+    border-radius: 20%;
+    object-fit: cover; 
+    margin-right: 20px; 
+}
+
+.det11 {
+    display: flex;
+    flex-direction: column;
+}
+
+.name11 {
+    font-size: 20px; 
+    margin: 0;
+}
+
+.doc11, .doctor11 {
+    margin: 5px 0;
+    font-size: 16px;
+}

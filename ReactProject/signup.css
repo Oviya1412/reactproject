@@ -1,0 +1,27 @@
+.styy
+{
+    /* background-color:darksalmon; */
+    background-image: url('https://images.creativemarket.com/0.1.0/ps/7248958/1820/1214/m1/fpnw/wm0/doctor-in-suit-cropp-cm-.jpg?1572965886&s=cc3aaec0eae6621e98fca309b4e6c483' );
+    /* background-position: center; */
+    background-size: cover;
+    
+    padding:100px;
+    
+    color:white;
+}
+.hhhh
+{
+    color:black;
+}
+.sty11
+{
+    background-color:#2477af;
+    margin-top: 10%;
+    padding-bottom: 50px;
+    margin-right:65%;
+    /* border-radius: 5%; */
+    border-spacing: 40%;
+    /* margin-left:20%; */
+    border: 8px solid white;
+
+}
